@@ -1,0 +1,86 @@
+:root {
+  --primary-color: #1e9a39;
+  --secondary-color: #9f0303;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+  color: var(--secondary-color);
+}
+
+.card {
+  padding: 20px 0px;
+  border: 4px var(--primary-color) solid;
+  border-radius: 50px;
+}
+
+/* Input Section */
+
+.card-title {
+  font-size: 24px;
+  padding: 20px 0px;
+  font-weight: 750;
+}
+
+label {
+  font-weight: 500;
+}
+
+select {
+  margin-bottom: 20px;
+  
+}
+
+#selectInputDegreeType {
+  /* border-radius: 0px 3px 3px 0px; */
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+
+.convertBtn {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 800;
+  min-width: 10px;
+  border-radius: 200px;
+  border: solid black;
+  background-color: rgb(77, 195, 110);
+
+
+}
+
+.convertBtn:hover {
+  transition: 0.5s;
+  background-color: rgb(60, 62, 186);
+}
+
+/* Result Section */
+
+#resultValueSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+  height: 200px;
+  word-wrap: normal;
+  text-align: center;
+  font-size-adjust: 0.58;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+#convertedDegree {
+  font-size: 65px;
+  font-weight: 500;
+  max-width: 500px;
+}
+
+#convertedUnit,
+#degree {
+  padding-bottom: 70px;
+}
+
+.resultSection {
+  background-color:var(--primary-color);
+  color: rgb(255, 255, 255);
+}

@@ -1,0 +1,126 @@
+*{padding: 0;margin:0;box-sizing: border-box;}
+header{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.2)),url('img/img.jpg');
+    background-size: cover;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    color:white;
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+
+.logo img{
+    width: 300px;
+    float:left;
+    padding-left: 1%;
+    padding-top: 25%;
+    filter: invert(0);
+   
+}
+
+
+.menu a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+    color: rgb(255, 251, 251);
+    padding: 10px 50px;
+    font-size: 20px;  
+    position: relative;  
+}
+
+.menu a:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    border-bottom: 2px solid indianred;
+    transition: 0.4s linear;
+}
+
+.menu a:hover::before{
+    width: 100%;
+}
+
+.Login a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 50px;
+    font-size: 20px;  
+    background:indianred;
+    border-radius: 10px;
+    border-style:inset;
+    transition: 0.4s linear;
+}
+
+.Login a:hover{
+    background: transparent;
+    color: rgb(255, 255, 255);
+    border: 5px solid coral;
+}
+
+.h-txt{
+    max-width: 650px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.h-txt span{
+    letter-spacing: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.h-txt h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3.5em;
+}
+.h-txt a{
+    text-decoration: none;
+    background: indianred;
+    color: white;
+    padding: 10px 50px;
+    letter-spacing: 5px;
+    border-radius: 50px;
+    border-style:inset;
+    transition: 0.4s linear
+}
+
+.h-txt a:hover{
+    background: transparent;
+    border: 5px solid coral;
+    border-style: inset;
+}
+
+.h2-txt{
+    max-width: 650px;
+    position:absolute;
+    top: 85%;
+    left: 85%;
+    transform: translate(-50%,-50%);
+    text-align:left;
+    color: rgb(0, 0, 0);
+}
+
+.footer {
+    width: 100%;
+    top:0%;
+    left: 0%;
+    border-top: 1px solid #f1f1f1;
+    box-shadow: 0px -2px 3px #f1f1f1;
+    text-align:center;
+    padding: 50rem;
+  }
